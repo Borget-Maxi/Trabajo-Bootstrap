@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2? family=Play:wght@400;700&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Play', sans-serif;
+    font-family: 'Quantico', sans-serif;
+}
+
+.tam-icon{
+    font-size: 6rem;
+    
+    
+}
+
+.formu-widht{
+    width: 26rem;
+}
+
+.cambio-color:hover{
+    color: white;
+    background: radial-gradient(#bac0c2, #064c75);
+}
+
+.deg-1{
+    background: radial-gradient(#bac0c2, #064c75);
+}
+
+.deg-2{
+    background: radial-gradient(#45E2EA, #DAEBEC);
+}
+
+.img-logo{
+    width: 4rem;
+    height: 4rem;
+}
+
+.linea-deg-1{
+    height: 0.2rem;
+    border: black;
+    background: linear-gradient(to right, #ffffff,rgb(145, 251, 255), #ffffff);
+}
+
+.linea-deg-2{
+    height: 0.2rem;
+    border: black ;
+    background: linear-gradient(to right, #ffffff,rgb(0, 0, 0), #ffffff);
+}
+
+.let-sombra-1{
+    text-shadow: -0.315rem 0.315rem black, -0.315rem 0.315rem gray, -0.415rem 0.415rem  rgb(145, 251, 255); 
+}
+
+.let-sombra-2{
+    text-shadow: -0.215rem 0.215rem rgb(184, 181, 181), -0.215rem 0.215rem gray, -0.315rem 0.315rem   #064c75; 
+}
+
+.let-sombra-3{
+    text-shadow: -0.0215rem 0.0215rem black, -0.0215rem 0.0215rem gray, -0.0315rem 0.0315rem rgb(145, 251, 255); 
+}
+
+.body-shadow-1{
+    box-shadow: -1rem 0rem 2rem #064c75, -0.315rem 0.315rem gray, -1rem 0rem 2rem rgb(145, 251, 255);
+}
+
+.body-shadow-2{
+    box-shadow: -1rem 0rem 2rem #064c75, -0.315rem 0.315rem gray, -1rem 0rem 2rem rgb(145, 251, 255);
+}
+
+.color-let-nav{
+    color: #ffffff;
+    text-shadow: -0.215rem 0.315rem black;
+}
+
+.bot-enviar{
+    box-shadow: -0.215rem 0.315rem #064c75;
+}
+
+.bot-enviar:active{
+    transform: translateY(3px);
+    box-shadow: 0px 0px #678983;
+}
+
+
+@media (max-width:800px){
+    .tam-icon{
+        font-size: 4rem;
+        text-align: center;
+    
+    }
+
+}
+
+.logo-github{
+    font-size: 3rem;
+}
